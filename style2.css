@@ -1,0 +1,18 @@
+body{
+    background-color: #fdf5e6;
+}
+
+#btn {
+    margin: 200px 400px;
+    padding: 100px 60px;
+    font-size: 60px;
+    text-align: center; 
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #a19c93;
+}
+
+#btn:hover {
+   box-shadow: #a19c93 0 0px 0px 40px inset;
+}

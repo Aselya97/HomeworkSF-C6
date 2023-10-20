@@ -1,0 +1,81 @@
+body {
+    background-color: #D3D3D3;
+}
+
+
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin-left: 300px;
+    margin-top: 100px;
+   
+
+}
+
+#text_area{
+    padding:20px 200px ;
+    border-radius: 50px;
+}
+
+#b_send{
+    background-color: pink;
+    border-radius: 25% 10%;
+}
+
+.b_location {
+    background-color: #DDA0DD;
+    border-radius:  25% 10%;
+}
+
+
+
+#output {
+    flex: auto;
+    min-height: 200px;    
+    border-radius: 50px;
+    background-color:#FFF5EE;    
+    margin-top: 40px;  
+    margin-right: 70px; 
+     
+}
+
+.person {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+
+.server {
+    display: flex;
+    justify-content: start;
+}
+
+.message {
+    margin: 5px 20px;
+    padding: 10px;
+    max-width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 99
+}
+
+.connect,
+.disconnect,
+.connect_error {
+    text-align: center;
+    color: rgb(41, 42, 41);
+    font-family: sans-serif;
+    font-size: 14px
+}
+
+.disconnect {
+    color: rgb(16, 14, 14);
+}
+
+.connect_error {
+    color: rgb(179, 75, 75);
+}
